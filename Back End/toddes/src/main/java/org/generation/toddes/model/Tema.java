@@ -35,9 +35,9 @@ public class Tema {
 		@Size(min=1, max=255) //define o tamanho do atributo
 		private String subtema_tema; 
 		
-		@OneToMany(mappedBy="fk_tema", cascade=CascadeType.ALL) //chave estrangeira
+		/*@OneToMany(mappedBy="fk_tema", cascade=CascadeType.ALL) //chave estrangeira
 		@JsonIgnoreProperties("fk_tema")
-		private List<Postagem> postagem; //cria uma lista com todas as postagens com o tema
+		private List<Postagem> postagem; //cria uma lista com todas as postagens com o tema*/
 
 		//encapsulamento
 		public long getId_postagem() {
@@ -72,13 +72,13 @@ public class Tema {
 			this.subtema_tema = subtema_tema;
 		}
 
-		public List<Postagem> getPostagem() {
+		/*public List<Postagem> getPostagem() {
 			return postagem;
 		}
 
 		public void setPostagem(List<Postagem> postagem) {
 			this.postagem = postagem;
-		}
+		}*/
 
 
 }
