@@ -1,0 +1,104 @@
+{
+	"variables": [],
+	"info": {
+		"name": "tb_tema",
+		"_postman_id": "975bd8c4-f2c9-af16-70a1-769e0cd15f79",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1 - getAll()",
+			"request": {
+				"url": "http://localhost:8080/temas/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "2 - getById()",
+			"request": {
+				"url": "http://localhost:8080/temas/2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "3 - getDescricao()",
+			"request": {
+				"url": "http://localhost:8080/temas/descricao/es",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "4 - postTema()",
+			"request": {
+				"url": "http://localhost:8080/temas/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"descricao\":\"diversidade\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "5 - putTema()",
+			"request": {
+				"url": "http://localhost:8080/temas/",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"codTema\": 1,\n\t\"descricao\":\"Etnia\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "6 - deleteTema()",
+			"request": {
+				"url": "http://localhost:8080/temas/7",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
