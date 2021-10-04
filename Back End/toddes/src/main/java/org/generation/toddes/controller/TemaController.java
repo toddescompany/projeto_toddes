@@ -30,10 +30,10 @@ public class TemaController {
 		return ResponseEntity.ok(tb_tema_from_db.findAll());
 	}
 	
-	@GetMapping("/{id}")
-	public ResponseEntity<Tema> findAllById(@PathVariable long id)
+	@GetMapping("/{idTema}")
+	public ResponseEntity<Tema> findAllById(@PathVariable long idTema)
 	{
-		return tb_tema_from_db.findById(id).map(resp -> ResponseEntity.ok(resp)).orElse(ResponseEntity.notFound().build());
+		return tb_tema_from_db.findById(idTema).map(resp -> ResponseEntity.ok(resp)).orElse(ResponseEntity.notFound().build());
 	}
 	
 	@GetMapping("/descricao/{descricao}")
