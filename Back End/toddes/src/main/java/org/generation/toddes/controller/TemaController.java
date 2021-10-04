@@ -36,7 +36,7 @@ public class TemaController {
 		return tb_tema_from_db.findById(id).map(resp -> ResponseEntity.ok(resp)).orElse(ResponseEntity.notFound().build());
 	}
 	
-	@GetMapping("/{descricao}")
+	@GetMapping("/descricao/{descricao}")
 	public ResponseEntity<List<Tema>> findAllByDescricao(@PathVariable String descricao)
 	{
 		return ResponseEntity.ok(tb_tema_from_db.findAllByDescricaoTemaContainingIgnoreCase(descricao));
