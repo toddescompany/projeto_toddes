@@ -72,7 +72,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     </td>
     <td align="center">
       <a href="https://github.com/marzocca99">
-        <img src="https://avatars.githubusercontent.com/u/91612577?v=4" width="100px;" alt="Foto de Lucas Marzocca no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/89137508?v=4" width="100px;" alt="Foto de Lucas Marzocca no GitHub"/><br>
         <sub>
           <b>Lucas Marzocca</b>
         </sub>
