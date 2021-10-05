@@ -56,9 +56,9 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     </td>
     <td align="center">
       <a href="https://github.com/guilhermem0101">
-        <img src="https://avatars.githubusercontent.com/u/89137460?v=4" width="100px;" alt="Foto de Guilherme Alencar no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/89137460?v=4" width="100px;" alt="Foto de Guilherme Matheus no GitHub"/><br>
         <sub>
-          <b>Matheus Alencar</b>
+          <b>Guilherme Matheus</b>
         </sub>
       </a>
     </td>
