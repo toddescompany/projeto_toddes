@@ -48,7 +48,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     </td>
      <td align="center">
       <a href="https://github.com/renanimpacta">
-        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Renam no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/79484696?v=4" width="100px;" alt="Foto de Renam no GitHub"/><br>
         <sub>
           <b>Renan</b>
         </sub>
