@@ -25,12 +25,12 @@ public class Postagem {
     @GeneratedValue(strategy = GenerationType.IDENTITY) //determina auto increment
     private long id_postagem;
     
-    @NotNull //determina que o atributo não pode ser nulo
+    @NotNull(message = "Título obrigatório.") //determina que o atributo não pode ser nulo
     @Size(min=1, max=255) //define o tamanho do atributo
     private String tituloPostagem; 
 
-    @NotNull //determina que o atributo não pode ser nulo
-    @Size(min=1, max=1000) //define o tamanho do atributo
+    @NotNull(message = "Texto obrigatório.") //determina que o atributo não pode ser nulo
+    @Size(min=1, max=1000, message = "Descrição deve conter entr 1 e 1000 caracteres.") //define o tamanho do atributo
     private String texto_postagem;
     
     @Temporal(TemporalType.TIMESTAMP) //define a data atual do sistema

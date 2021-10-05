@@ -32,7 +32,7 @@ public class Usuario {
     private String nome_usuario;
     
     @NotNull //determina que o atributo não pode ser nulo
-    @Size(min=6, max=255) //define o tamanho da senha minimo 6
+    @Size(min=6, max=255, message = "Descrição deve conter no mínimo 6 caracteres.") //define o tamanho da senha minimo 6
     private String senha_usuario; 
     
     @OneToMany(mappedBy="fk_usuario", cascade=CascadeType.ALL) //chave estrangeira

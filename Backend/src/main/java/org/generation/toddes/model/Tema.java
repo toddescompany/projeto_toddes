@@ -23,15 +23,15 @@ public class Tema {
 		@GeneratedValue(strategy = GenerationType.IDENTITY) //determina auto increment
 		private long idTema;
 		
-		@NotNull //determina que o atributo não pode ser nulo
+		@NotNull(message = "Tema obrigatório.") //determina que o atributo não pode ser nulo
 		@Size(min=1, max=255) //define o tamanho do atributo
 		private String nomeTema; 
 		
-		@NotNull //determina que o atributo não pode ser nulo
-		@Size(min=1, max=500) //define o tamanho do atributo
+		@NotNull(message = "Descrição obrigatória.") //determina que o atributo não pode ser nulo
+		@Size(min=1, max=500, message = "Descrição deve conter entr 1 e 500 caracteres.") //define o tamanho do atributo
 		private String descricao;
 		
-		@NotNull //determina que o atributo não pode ser nulo
+		@NotNull(message = "Sub-Tema obrigatório.") //determina que o atributo não pode ser nulo
 		@Size(min=1, max=255) //define o tamanho do atributo
 		private String subtemaTema;
 		
