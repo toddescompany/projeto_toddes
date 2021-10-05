@@ -1,12 +1,17 @@
 
-<div align="center"><img style="width:250px;height:250px;" src="https://github.com/toddescompany/projeto_toddes/blob/main/Frontend/blackhand.png" alt="logo_todds"> </div>
-<h1 align="center">Todds</h1>
+<div align="center" style="font-size:30px;"><img style="width:250px;height:250px;" src="https://github.com/toddescompany/projeto_toddes/blob/main/Frontend/blackhand.png" alt="logo_todds">
+    <h1>Todds</h1>
+</div>
 
-## :memo: Descrição
-Rede social voltada para empresas disponibilizarem para seus funcionaries relatar experiências desconfortáveis que vão contra a diversidade, fazendo assim, uma concientização entre os colaboradores.
+<div align="center">Rede social voltada para empresas disponibilizarem para seus funcionaries relatar experiências desconfortáveis que vão contra a diversidade, fazendo assim, uma concientização entre os colaboradores.</div>
+<br>
+<br>
+
 
 ## :books: Funcionalidades
 <b> :see_no_evil: Em desemvolvimento</b>
+<br>
+<br>
 
 ## :wrench: Tecnologias Utilizadas
 <div style="display: inline_block"><br>
@@ -17,7 +22,8 @@ Rede social voltada para empresas disponibilizarem para seus funcionaries relata
     <img align="center" alt="gel-spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg">
     <img align="center" alt="gel-spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
 </div>
- 
+<br>
+
  <!--
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
@@ -50,7 +56,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     </td>
     <td align="center">
       <a href="http://github.com/tatialveso">
-        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Matheus Alencar no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/89137460?v=4" width="100px;" alt="Foto de Guilherme Alencar no GitHub"/><br>
         <sub>
           <b>Matheus Alencar</b>
         </sub>
@@ -58,7 +64,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     </td>
     <td align="center">
       <a href="http://github.com/tatialveso">
-        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Aleff no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/89137498?v=4" width="100px;" alt="Foto de Aleff no GitHub"/><br>
         <sub>
           <b>Aleff</b>
         </sub>
@@ -66,7 +72,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     </td>
     <td align="center">
       <a href="http://github.com/tatialveso">
-        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Lucas Marzocca no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/91612577?v=4" width="100px;" alt="Foto de Lucas Marzocca no GitHub"/><br>
         <sub>
           <b>Lucas Marzocca</b>
         </sub>
@@ -75,5 +81,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
   </tr>
 </table>
 
+<br>
+
 ## :dart: Status do projeto
-<h1>Task 6 - Em Desenvolvimento</h1>
+:technologist: Em Desenvolvimento (Task 6)
