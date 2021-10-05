@@ -39,7 +39,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <table>
   <tr>
     <td align="center">
-      <a href="http://github.com/tatialveso">
+      <a href="https://github.com/argelcapela">
         <img src="https://avatars.githubusercontent.com/u/79276276?s=400&u=055b803f4708d59eaf50208ba601f85844125757&v=4" width="100px;" alt="Foto de Argel Capela no GitHub"/><br>
         <sub>
           <b>Argel Capela</b>
@@ -47,7 +47,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
       </a>
     </td>
      <td align="center">
-      <a href="http://github.com/tatialveso">
+      <a href="https://github.com/renanimpacta">
         <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Renam no GitHub"/><br>
         <sub>
           <b>Renan</b>
@@ -55,7 +55,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
       </a>
     </td>
     <td align="center">
-      <a href="http://github.com/tatialveso">
+      <a href="https://github.com/guilhermem0101">
         <img src="https://avatars.githubusercontent.com/u/89137460?v=4" width="100px;" alt="Foto de Guilherme Alencar no GitHub"/><br>
         <sub>
           <b>Matheus Alencar</b>
@@ -63,7 +63,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
       </a>
     </td>
     <td align="center">
-      <a href="http://github.com/tatialveso">
+      <a href="https://github.com/aleffqs">
         <img src="https://avatars.githubusercontent.com/u/89137498?v=4" width="100px;" alt="Foto de Aleff no GitHub"/><br>
         <sub>
           <b>Aleff</b>
@@ -71,7 +71,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
       </a>
     </td>
     <td align="center">
-      <a href="http://github.com/tatialveso">
+      <a href="https://github.com/marzocca99">
         <img src="https://avatars.githubusercontent.com/u/91612577?v=4" width="100px;" alt="Foto de Lucas Marzocca no GitHub"/><br>
         <sub>
           <b>Lucas Marzocca</b>
