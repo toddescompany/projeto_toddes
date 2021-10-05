@@ -9,7 +9,7 @@
 
 
 ## :books: Funcionalidades
-<b> :see_no_evil: Em desemvolvimento</b>
+<b> :see_no_evil: Em desenvolvimento</b>
 <br>
 <br>
 
