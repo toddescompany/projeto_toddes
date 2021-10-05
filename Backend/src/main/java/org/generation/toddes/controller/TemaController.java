@@ -25,13 +25,13 @@ public class TemaController {
 	private TemaRepository tb_tema_from_db;
 	
 	@GetMapping
-	public ResponseEntity<List<Tema>> findAll()
+	public ResponseEntity<List<Tema>> getAll()
 	{
 		return ResponseEntity.ok(tb_tema_from_db.findAll());
 	}
 	
 	@GetMapping("/{idTema}")
-	public ResponseEntity<Tema> findAllById(@PathVariable long idTema)
+	public ResponseEntity<Tema> getById(@PathVariable long idTema)
 	{
 		return tb_tema_from_db.findById(idTema).map(resp -> ResponseEntity.ok(resp)).orElse(ResponseEntity.notFound().build());
 	}

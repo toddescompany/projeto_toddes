@@ -25,13 +25,13 @@ public class PostagemController {
 	private PostagemRepository tb_postagem_from_db;
 	
 	@GetMapping
-	public ResponseEntity<List<Postagem>> findAll()
+	public ResponseEntity<List<Postagem>> getAll()
 	{
 		return ResponseEntity.ok(tb_postagem_from_db.findAll());
 	}
 	
 	@GetMapping("/{id_postagem}")
-	public ResponseEntity<Postagem> findAllById(@PathVariable long id_postagem)
+	public ResponseEntity<Postagem> getById(@PathVariable long id_postagem)
 	{
 		return tb_postagem_from_db.findById(id_postagem).map(resp -> ResponseEntity.ok(resp)).orElse(ResponseEntity.notFound().build());
 	}
