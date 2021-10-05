@@ -1,6 +1,6 @@
 
 <div align="center" style="font-size:30px;"><img style="width:250px;height:250px;" src="https://github.com/toddescompany/projeto_toddes/blob/main/Frontend/blackhand.png" alt="logo_toddes">
-    <h1>Todds</h1>
+    <h1>Toddes</h1>
 </div>
 
 <div align="center">Rede social voltada para empresas disponibilizarem para seus funcionaries relatar experiências desconfortáveis que vão contra a diversidade, fazendo assim, uma concientização entre os colaboradores.</div>
@@ -84,4 +84,4 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <br>
 
 ## :dart: Status do projeto
-:technologist: Em Desenvolvimento (Task 6)
+:technologist: Em Desenvolvimento (Task 7)
