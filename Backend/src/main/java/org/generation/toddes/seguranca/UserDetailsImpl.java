@@ -16,8 +16,8 @@ public class UserDetailsImpl implements UserDetails{
 	
 	//construtor
 	public UserDetailsImpl(Usuario user) {
-		this.userName = user.getEmail_usuario();
-		this.password = user.getSenha_usuario();
+		this.userName = user.getEmailUsuario();
+		this.password = user.getSenhaUsuario();
 	}
 	
 	public UserDetailsImpl() {} //construtor vazio

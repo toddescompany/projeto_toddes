@@ -21,62 +21,65 @@ public class Usuario {
     //atributos
     @Id //determina a chave primaria    
     @GeneratedValue(strategy = GenerationType.IDENTITY) //determina auto increment
-    private long id_postagem;
+    private long idPostagem;
     
     @NotNull //determina que o atributo não pode ser nulo
     @Size(min=1, max=255) //define o tamanho do atributo
-    private String email_usuario; 
+    private String emailUsuario; 
     
     @NotNull //determina que o atributo não pode ser nulo
     @Size(min=1, max=255) //define o tamanho do atributo
-    private String nome_usuario;
+    private String nomeUsuario;
     
     @NotNull //determina que o atributo não pode ser nulo
     @Size(min=6, max=255, message = "Descrição deve conter no mínimo 6 caracteres.") //define o tamanho da senha minimo 6
-    private String senha_usuario; 
+    private String senhaUsuario; 
     
     @OneToMany(mappedBy="fk_usuario", cascade=CascadeType.ALL) //chave estrangeira
     @JsonIgnoreProperties("fk_usuario")
     private List<Postagem> postagem; //cria uma lista com todas as postagens do usuario
 
     //encapsulamento
-    public long getId_postagem() {
-        return id_postagem;
-    }
+    
 
-    public void setId_postagem(long id_postagem) {
-        this.id_postagem = id_postagem;
-    }
+   
+    public long getIdPostagem() {
+		return idPostagem;
+	}
 
-    public String getEmail_usuario() {
-        return email_usuario;
-    }
+	public void setIdPostagem(long idPostagem) {
+		this.idPostagem = idPostagem;
+	}
 
-    public void setEmail_usuario(String email_usuario) {
-        this.email_usuario = email_usuario;
-    }
+	public String getEmailUsuario() {
+		return emailUsuario;
+	}
 
-    public String getNome_usuario() {
-        return nome_usuario;
-    }
+	public void setEmailUsuario(String emailUsuario) {
+		this.emailUsuario = emailUsuario;
+	}
 
-    public void setNome_usuario(String nome_usuario) {
-        this.nome_usuario = nome_usuario;
-    }
+	public String getNomeUsuario() {
+		return nomeUsuario;
+	}
 
-    public String getSenha_usuario() {
-        return senha_usuario;
-    }
+	public void setNomeUsuario(String nomeUsuario) {
+		this.nomeUsuario = nomeUsuario;
+	}
 
-    public void setSenha_usuario(String senha_usuario) {
-        this.senha_usuario = senha_usuario;
-    }
+	public String getSenhaUsuario() {
+		return senhaUsuario;
+	}
 
-    public List<Postagem> getPostagem() {
-        return postagem;
-    }
+	public void setSenhaUsuario(String senhaUsuario) {
+		this.senhaUsuario = senhaUsuario;
+	}
+	
+	public List<Postagem> getPostagem() {
+	        return postagem;
+	}
 
-    public void setPostagem(List<Postagem> postagem) {
+	public void setPostagem(List<Postagem> postagem) {
         this.postagem = postagem;
     }
 

@@ -4,11 +4,11 @@ public class UserLogin {
 	
 	private long id;
 	
-	private String email_usuario;
+	private String emailUsuario;
 	
-	private String nome_usuario;
+	private String nomeUsuario;
 	
-	private String senha_usuario;
+	private String senhaUsuario;
 	
 	private String token;
 
@@ -20,28 +20,35 @@ public class UserLogin {
 		this.id = id;
 	}
 
-	public String getEmail_usuario() {
-		return email_usuario;
+	
+	//ecaps
+	
+	
+	
+	
+	
+
+	public String getEmailUsuario() {
+		return emailUsuario;
 	}
 
-	public void setEmail_usuario(String email_usuario) {
-		this.email_usuario = email_usuario;
+	public void setEmailUsuario(String emailUsuario) {
+		this.emailUsuario = emailUsuario;
 	}
 
-	public String getNome_usuario() {
-		return nome_usuario;
+	public String getNomeUsuario() {
+		return nomeUsuario;
+	}
+	public void setNomeUsuario(String nomeUsuario) {
+		this.nomeUsuario = nomeUsuario;
 	}
 
-	public void setNome_usuario(String nome_usuario) {
-		this.nome_usuario = nome_usuario;
+	public String getSenhaUsuario() {
+		return senhaUsuario;
 	}
 
-	public String getSenha_usuario() {
-		return senha_usuario;
-	}
-
-	public void setSenha_usuario(String senha_usuario) {
-		this.senha_usuario = senha_usuario;
+	public void setSenhaUsuario(String senhaUsuario) {
+		this.senhaUsuario = senhaUsuario;
 	}
 
 	public String getToken() {
