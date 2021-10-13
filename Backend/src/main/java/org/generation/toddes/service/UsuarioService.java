@@ -1,7 +1,9 @@
 package org.generation.toddes.service;
 
 import java.nio.charset.Charset;
+import java.util.List;
 import java.util.Optional;
+
 import org.apache.commons.codec.binary.Base64;
 import org.generation.toddes.model.UserLogin;
 import org.generation.toddes.model.Usuario;
@@ -14,8 +16,18 @@ import org.springframework.stereotype.Service;
 public class UsuarioService {
 	@Autowired
 	private UsuarioRepository repository;
+	
+	public List<Usuario> listarUsuarios(){
 
+        return repository.findAll();
+    }
+	
+	public Optional<Usuario> buscarUsuarioId(long id) {
+		return repository.findById(id);	
+	}
+	
 	public Usuario CadastrarUsuario(Usuario usuario) {
+		
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 		String senhaEncoder = encoder.encode(usuario.getSenhaUsuario());
 		usuario.setSenhaUsuario(senhaEncoder);
@@ -26,6 +38,8 @@ public class UsuarioService {
 	public Optional<UserLogin> Logar(Optional<UserLogin> user) {
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 		Optional<Usuario> usuario = repository.findByNomeUsuario(user.get().getNomeUsuario());
+		
+		
 
 		if (usuario.isPresent()) {
 			if (encoder.matches(user.get().getSenhaUsuario(), usuario.get().getSenhaUsuario())) {

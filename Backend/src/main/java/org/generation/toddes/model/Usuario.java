@@ -21,7 +21,7 @@ public class Usuario {
     //atributos
     @Id //determina a chave primaria    
     @GeneratedValue(strategy = GenerationType.IDENTITY) //determina auto increment
-    private long idPostagem;
+    private long id;
     
     @NotNull //determina que o atributo não pode ser nulo
     @Size(min=1, max=255) //define o tamanho do atributo
@@ -40,21 +40,19 @@ public class Usuario {
     private List<Postagem> postagem; //cria uma lista com todas as postagens do usuario
 
     //encapsulamento
-    
 
-   
-    public long getIdPostagem() {
-		return idPostagem;
+
+	public long getId() {
+		return id;
 	}
 
-	public void setIdPostagem(long idPostagem) {
-		this.idPostagem = idPostagem;
+	public void setId(long id) {
+		this.id = id;
 	}
-
+	
 	public String getEmailUsuario() {
 		return emailUsuario;
 	}
-
 	public void setEmailUsuario(String emailUsuario) {
 		this.emailUsuario = emailUsuario;
 	}
