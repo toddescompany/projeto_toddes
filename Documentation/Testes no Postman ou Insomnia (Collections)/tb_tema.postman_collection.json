@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "dbce83d4-1c76-423c-a672-5e965d06c55b",
+		"name": "tb_tema",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1 - getAll()",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/temas/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"temas",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 - getById()",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/temas/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"temas",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 - getDescricao()",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/temas/descricao/es",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"temas",
+						"descricao",
+						"es"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 - postTema()",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nomeTema\": \"Relatos\",\n\t\"descricao\":\"Relatos sobre abusos\",\n    \"subtemaTema\":\"Embiente empresarial\"\n\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/temas/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"temas",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5 - putTema()",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"codTema\": 1,\n\t\"descricao\":\"Etnia\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/temas/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"temas",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6 - deleteTema()",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/temas/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"temas",
+						"7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
