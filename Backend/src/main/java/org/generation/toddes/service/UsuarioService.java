@@ -30,7 +30,7 @@ public class UsuarioService {
 		if (usuario.isPresent()) {
 			if (encoder.matches(user.get().getSenhaUsuario(), usuario.get().getSenhaUsuario())) {
 
-				String auth = user.get().getEmailUsuario() + ":" + user.get().getSenhaUsuario();
+				String auth = user.get().getNomeUsuario() + ":" + user.get().getSenhaUsuario();
 				byte[] encodedAuth = Base64.encodeBase64(auth.getBytes(Charset.forName("US-ASCII")));
 				String authHeader = "Basic " + new String(encodedAuth);
 
