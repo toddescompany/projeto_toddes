@@ -25,7 +25,7 @@ public class UsuarioService {
 
 	public Optional<UserLogin> Logar(Optional<UserLogin> user) {
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-		Optional<Usuario> usuario = repository.findByNomeUsuario(user.get().getEmailUsuario());
+		Optional<Usuario> usuario = repository.findByNomeUsuario(user.get().getNomeUsuario());
 
 		if (usuario.isPresent()) {
 			if (encoder.matches(user.get().getSenhaUsuario(), usuario.get().getSenhaUsuario())) {
