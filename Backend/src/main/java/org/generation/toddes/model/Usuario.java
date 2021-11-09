@@ -38,6 +38,10 @@ public class Usuario {
     @Size(min=6, max=255, message = "Descrição deve conter no mínimo 6 caracteres.") //define o tamanho da senha minimo 6
     private String senhaUsuario; 
     
+    private String foto;
+    
+    private String tipo;
+    
     @OneToMany(mappedBy="fk_usuario", cascade=CascadeType.ALL) //chave estrangeira
     @JsonIgnoreProperties("fk_usuario")
     private List<Postagem> postagem; //cria uma lista com todas as postagens do usuario
@@ -83,6 +87,22 @@ public class Usuario {
 	public void setPostagem(List<Postagem> postagem) {
         this.postagem = postagem;
     }
+
+	public String getFoto() {
+		return foto;
+	}
+
+	public void setFoto(String foto) {
+		this.foto = foto;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
 
 
 }
