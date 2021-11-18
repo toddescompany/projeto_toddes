@@ -1,5 +1,5 @@
 
-<div align="center" style="font-size:30px;"><img style="width:250px;height:250px;" src="https://github.com/toddescompany/projeto_toddes/blob/main/Frontend/blackhand.png" alt="logo_toddes">
+<div align="center" style="font-size:30px;"><img style="width:250px;height:250px;" src="https://github.com/toddescompany/toddes_social_network_backend/blob/main/blackhand.png" alt="logo_toddes">
     <h1>Toddes</h1>
 </div>
 
