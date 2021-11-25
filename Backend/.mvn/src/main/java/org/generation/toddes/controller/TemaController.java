@@ -36,13 +36,11 @@ public class TemaController {
 		return tb_tema_from_db.findById(idTema).map(resp -> ResponseEntity.ok(resp)).orElse(ResponseEntity.notFound().build());
 	}
 	
-	@GetMapping("/nometema/{nomeTema}")
-	public ResponseEntity<List<Tema>> getByNomeTema(@PathVariable String nomeTema)
+	@GetMapping("/descricao/{descricao}")
+	public ResponseEntity<List<Tema>> getByDescricao(@PathVariable String descricao)
 	{
-		return ResponseEntity.ok(tb_tema_from_db.findAllByNomeTemaContainingIgnoreCase(nomeTema));
+		return ResponseEntity.ok(tb_tema_from_db.findAllByDescricaoContainingIgnoreCase(descricao));
 	}
-	
-	//funcionando perfeitamente
 
 	@PostMapping
 	public ResponseEntity<Tema> postTema(@RequestBody Tema json_tema)

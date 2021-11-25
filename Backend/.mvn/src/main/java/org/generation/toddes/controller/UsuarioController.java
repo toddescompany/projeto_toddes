@@ -5,13 +5,11 @@ import java.util.Optional;
 
 import org.generation.toddes.model.UserLogin;
 import org.generation.toddes.model.Usuario;
-
 import org.generation.toddes.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -26,7 +24,6 @@ public class UsuarioController {
 
 	@Autowired
 	private UsuarioService usuarioService;
-	//private UsuarioRepository userDb;
 
 	@PostMapping("/logar")
 	public ResponseEntity<UserLogin> Autentication(@RequestBody Optional<UserLogin> user) {
@@ -51,10 +48,5 @@ public class UsuarioController {
 	public ResponseEntity<Usuario> getById(@PathVariable long id) {
 		return usuarioService.buscarUsuarioId(id).map(resp -> ResponseEntity.ok(resp))
 				.orElse(ResponseEntity.notFound().build());
-	}
-	
-	@DeleteMapping("/{id}")
-	public void deleteUsuario(@PathVariable long id) {
-		usuarioService.delete(id);
 	}
 }

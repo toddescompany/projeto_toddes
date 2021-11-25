@@ -12,7 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-
 @Service
 public class UsuarioService {
 	@Autowired
@@ -27,9 +26,6 @@ public class UsuarioService {
 		return repository.findById(id);	
 	}
 	
-	public void delete(long id) {
-		repository.deleteById(id);
-	}
 	public Usuario CadastrarUsuario(Usuario usuario) {
 		
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();

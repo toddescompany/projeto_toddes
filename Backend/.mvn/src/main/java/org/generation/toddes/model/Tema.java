@@ -28,11 +28,11 @@ public class Tema {
 		private String nomeTema; 
 		
 		
-		//@Size(min=0, max=500, message = "Descrição deve conter entr 1 e 500 caracteres.") //define o tamanho do atributo
+		@Size(min=1, max=500, message = "Descrição deve conter entr 1 e 500 caracteres.") //define o tamanho do atributo
 		private String descricao;
 		
 		
-		//@Size(min=0, max=255) //define o tamanho do atributo
+		@Size(min=1, max=255) //define o tamanho do atributo
 		private String subtemaTema;
 		
 		@OneToMany(mappedBy="fk_tema", cascade=CascadeType.ALL) //chave estrangeira

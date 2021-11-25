@@ -42,7 +42,7 @@ public class Usuario {
     
     private String tipo;
     
-    @OneToMany(mappedBy="fk_usuario", cascade=CascadeType.REMOVE) //chave estrangeira
+    @OneToMany(mappedBy="fk_usuario", cascade=CascadeType.ALL) //chave estrangeira
     @JsonIgnoreProperties("fk_usuario")
     private List<Postagem> postagem; //cria uma lista com todas as postagens do usuario
 

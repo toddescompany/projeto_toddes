@@ -39,8 +39,6 @@ public class Postagem {
     @Column(name="anonimo_postagem",nullable=false) //determina se a postagem é anonima ou não
     private boolean anonimo_postagem = false;
     
-    private String imagem;
-    
     @ManyToOne //chave estrangeira
     @JsonIgnoreProperties("postagem")
     private Tema fk_tema;
@@ -105,14 +103,6 @@ public class Postagem {
     public void setFk_usuario(Usuario fk_usuario) {
         this.fk_usuario = fk_usuario;
     }
-
-	public String getImagem() {
-		return imagem;
-	}
-
-	public void setImagem(String imagem) {
-		this.imagem = imagem;
-	}
         
 
 }
