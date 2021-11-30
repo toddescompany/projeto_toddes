@@ -1,10 +1,9 @@
 
 <div align="center" style="font-size:30px;"><img style="width:400px;height:250px;" src="https://toddes.netlify.app/assets/toddes_img/logo_toddes_branco.png" alt="logo_toddes">
-    <h1>Toddes (Frontend)</h1>
+    <h1>Toddes (Backend)</h1>
 </div>
 
 <div align="center">O Toddes é uma rede social que cria um networking entre profissionais diversos e potenciais empregadores.</div>
-<br>
 <br>
 
 
@@ -12,7 +11,11 @@
 * CRUD TEMAS/POSTAGENS/USUÁRIOS
 * LAYOUT RESPONSIVO DO COMEÇO AO FIM
 <br>
-<br>
+
+## :soon: Implementação futura
+* REDE DE AMIGOS
+* CHAT
+* OPORTUNIDADES
 
 ## :wrench: Tecnologias Utilizadas
 <div style="display: inline_block"><br>
@@ -24,17 +27,6 @@
     <img align="center" alt="gel-spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
 </div>
 <br>
-
- <!--
-## :rocket: Rodando o projeto
-Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
-```
-<linha de comando>
-```
-
-## :soon: Implementação futura
-* O que será implementado na próxima sprint?
--->
 
 ## :handshake: Colaboradores
 <table>
