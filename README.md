@@ -1,15 +1,16 @@
 
 <div align="center" style="font-size:30px;"><img style="width:250px;height:250px;" src="https://github.com/toddescompany/toddes_social_network_backend/blob/main/blackhand.png" alt="logo_toddes">
-    <h1>Toddes</h1>
+    <h1>Toddes (Frontend)</h1>
 </div>
 
-<div align="center">Rede social voltada para empresas disponibilizarem para seus funcionaries relatar experiências desconfortáveis que vão contra a diversidade, fazendo assim, uma concientização entre os colaboradores.</div>
+<div align="center">O Toddes é uma rede social que cria um networking entre profissionais diversos e potenciais empregadores.</div>
 <br>
 <br>
 
 
 ## :books: Funcionalidades
-<b> :see_no_evil: Em desenvolvimento</b>
+* CRUD TEMAS/POSTAGENS/USUÁRIOS
+* LAYOUT RESPONSIVO DO COMEÇO AO FIM
 <br>
 <br>
 
@@ -84,4 +85,4 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <br>
 
 ## :dart: Status do projeto
-:technologist: Em Desenvolvimento (Task 7)
+:technologist: Concluído em fase beta v1.0
